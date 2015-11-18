@@ -104,7 +104,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_in_env", "static_root")
+STATIC_ROOT = os.path.join("static_in_env", "static_root")
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
@@ -112,7 +112,7 @@ STATICFILES_DIRS = (
 )
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_in_env", "media_root")
+MEDIA_ROOT = os.path.join("static_in_env", "media_root")
 
 # Parse database configuration from $DATABASE_URL
 DATABASES['default'] = dj_database_url.config()
