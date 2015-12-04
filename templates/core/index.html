@@ -43,7 +43,7 @@
 	          <ul class="nav navbar-nav">
 	            <li class="active"><a href="#home" class="smothscroll">Início</a></li>
 	            <li><a href="#desc" class="smothscroll">Missão</a></li>
-	            <li><a href="#showcase" class="smothScroll">Amostra</a></li>
+	            <li><a href="#showcase" class="smothScroll">Vem aí!</a></li>
 	            <li><a href="#contact" class="smothScroll">Contato</a></li>
 	          </ul>
 	        </div><!--/.nav-collapse -->
@@ -181,18 +181,42 @@
 		                    </div><!-- /collapse -->
 		                </div><!-- /accordion-group -->
 		                <br>
+
 					</div><!-- Accordion -->
+
 				</div>
+
 			</div>
+      <hr>
 		</div><!--/ .container -->
 	</div><!--/ #features -->
 
+  <div id="features_video">
+    <div class="container">
+      <div class="row">
+        <h1 class="centered">É um cidadão do novo milênio?</h1>
+        <h4 class="centered">Quer saber mais? Assista o nosso vídeo de apresentação!</h4>
+				<br>
+
+        <video id="eMudeVideo" class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12" width="640" controls>
+          <source src= {% static "core/video/eMudeVideo_MP4.mp4" %} type="video/mp4">
+            <source src= {% static "core/video/eMudeVideo_WEBM.webm" %} type="video/webm">
+              <source src= {% static "core/video/eMudeVideo_OGG.ogg" %} type="video/ogg">
+                <source src= {% static "core/video/eMudeVideo_MOV.mov" %} type="video/quicktime">
+           </video>
+
+      </div>
+      <br>
+      <br>
+      <br>
+    </div><!--/ .container -->
+  </div><!--/ #features -->
 
 	<section id="showcase" name="showcase"></section>
 	<div id="showcase">
 		<div class="container">
 			<div class="row">
-				<h1 class="centered"> O que está por vir?</h1>
+				<h1 class="centered"> Vem aí!</h1>
 				<br>
 				<div class="centered col-lg-4 col-lg-offset-4">
 					<div id="carousel-example-generic" class="carousel slide">
